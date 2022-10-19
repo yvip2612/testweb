@@ -1,0 +1,119 @@
+.customer{
+    &-container{
+        box-sizing: border-box;
+    }
+    &-heading{
+        margin: 10px 0;
+      text-align: center;
+       h5{
+           margin-bottom:2px;
+       }
+    }
+    &-desc{
+        line-height: 30px;
+        text-transform: capitalize;
+        text-align: center;
+       padding: 0 260px;
+       margin-bottom: 30px;
+
+    }
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 50px;
+        margin-bottom: 60px;
+    }
+    &-item{ 
+        padding: 30px;
+        border-radius: 10px;
+        border: 2px solid #dddddd;
+        box-sizing: border-box;
+    }
+    &-info{ 
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    &-rating{ 
+       display: flex;
+       gap: 0 10px;
+       align-items: center;
+    }
+    &-page{ 
+        display: flex;
+        justify-content: space-between;
+        gap: 0 15px;
+        button:first-child{
+            position: relative;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 100px;
+            width: 45px;
+            height: 15px;
+            background-color: #f53838;
+            }
+            button{
+                position: relative;
+                border: none;
+                cursor: pointer;
+                display: inline-block;
+                border-radius: 100px;
+                width: 45px;
+                height: 15px;
+                background-color: #DDE0E4;
+            }
+    }
+
+        
+       
+        &-1{
+            position: relative;
+            border: 2px solid #f53838;
+            background-color: transparent;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #f53838;
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 100px;
+        }
+        &-2{
+            position: relative;
+            border: 2px solid #f53838;
+            background-color: #f53838;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #f53838;
+            cursor: pointer;
+            display: inline-block;
+             border-radius: 100px;
+        }
+        &-bottom{
+        display: flex;
+        justify-content: space-between;
+         align-items: center;
+         margin-bottom: 50px;
+        }
+        &-button{
+            box-sizing: border-box;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width: 1023px) {
+        .customer-desc{
+            padding: 20px 10px;
+        }
+       .customer-item{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px 60px;
+       
+       }
+       
+       .customer-bottom{
+           margin-bottom: 50px;
+       }
+       
+    }
+    

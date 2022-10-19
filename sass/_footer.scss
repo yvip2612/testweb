@@ -1,0 +1,62 @@
+.footer{
+    
+    box-sizing: border-box;
+    padding:50px 0;
+    margin-top: 50px;
+    &-container{
+        display:flex;
+    gap: 0 100px;
+    align-items: flex-start;
+    }
+    &-tittle{
+    
+    font-weight: 500;
+    line-height: calc(30 / 16);
+    margin-bottom: 30px;
+    max-width: 340px;
+    padding: 20px auto; 
+    color: #4f5665;
+    }
+    &-contact{
+        display:flex;
+    }
+    &-item{
+        padding:10px 0 ;
+        gap:0 20px;
+    }
+    &-logo{
+        margin-bottom:20px;
+    }
+    &-contact{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &-copy{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:1023px) 
+{
+.footer-container{
+    
+   justify-content: space-between;
+   
+} 
+.footer{
+    margin-top:50px;
+    gap:20px 30px 20px 30px;
+}   
+.footer-column{
+    font-size:25px;
+    width: 100%;
+   gap:20px 30px 20px 30px;
+   margin: 0 30px;
+   padding: 0 20px;
+}
+.footer-title{
+    gap:20px 0;
+   font-size:14px;
+}
+}
+

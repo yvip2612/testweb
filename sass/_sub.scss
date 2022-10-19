@@ -1,0 +1,17 @@
+.sub{
+    &-container{
+     background: #ffffff;
+    border-radius: 10px;
+    padding: 58px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 30px 114px 0 rgba(13, 16, 37, 0.6);
+}
+&-heading{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: calc(45 / 35);
+    margin-bottom: 20px;
+}
+}

@@ -1,0 +1,91 @@
+.plan{
+    h2{
+        margin-bottom: 20px;
+    }
+    &-container{
+        margin-top: 80px;
+        justify-content: space-between;
+    }
+        
+    &-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0 50px;
+        margin-bottom: 176px;
+        align-content: center;
+    }
+    
+        
+    &-heading{
+        text-align: center; 
+        margin: 100px 42px;
+    }
+    &-desc{
+        line-height: 30px;
+        text-transform: capitalize;
+        text-align: center;
+       padding: 30px 280px;
+    }
+   &-item{ 
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:80px 50px 50px;
+   }
+   &-price{
+       margin-bottom:30px;
+       text-align: center;
+       font-size:20px;
+       font-weight: 500;
+       margin-top: auto;
+
+   }
+   &-detail{
+      margin-bottom: 50px;
+   }
+   &-info{
+       display: flex;
+       align-items: center;
+       gap: 0 25px;
+       margin-top: 15px;
+       margin-bottom:10px;
+       font-size:14px;
+       line-height:calc(30/14);
+   }
+   &-img{
+       display:block;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+&-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width:1023px) {
+    .heading{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .content{
+        
+    grid-gap: 0 50px;
+  
+    }
+    .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px 60px;
+    }
+    .plan-desc{
+        padding:  30px 20px;
+    }
+    
+}

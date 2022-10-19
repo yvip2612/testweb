@@ -1,0 +1,43 @@
+.network{
+    &-container{
+        margin-top: 150px;
+        justify-content: space-between;
+    }
+    &-heading{
+        padding: 0 390px;
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 500;
+        margin: 20px 0;
+        margin-bottom:50px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    &-desc{
+        line-height: 30px;
+        text-transform: capitalize;
+        text-align: center;
+       padding: 0 280px;
+    }
+    &-img{
+        margin: 0 auto;
+    }
+    &-map{
+        margin:0 40px;
+        margin-top: 155px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .network-heading{
+        padding: 0 20px;
+       
+    }
+    .network-desc {
+       
+        padding: 0 15px;
+    }
+    .network-img{
+        margin-bottom: 50px;
+    }
+}
